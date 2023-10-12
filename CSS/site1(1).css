@@ -1,0 +1,139 @@
+*{
+ box-sizing: border-box;  
+ margin: auto; 
+}
+.conteneur {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(3, 1fr) 1.2fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    z-index: 1;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 6; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    .div3 { grid-area: 1 / 2 / 2 / 5; }
+    .div4 { grid-area: 1 / 5 / 2 / 6; }
+    .div1{
+        background-color: rgb(13, 12, 9);
+        width: 100%;
+        height: 20vh;
+        margin-top: 0%;
+        z-index: -1;
+    }
+    .div2{
+        height: 20vh;
+        width: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+    }
+    nav{
+text-align: center;
+
+    }
+    .menu{
+        display: inline-block;
+        
+    }
+    .menu > li{
+        float :left;
+        color: aqua;
+        width: 200px;
+        height: 100px;
+        line-height: 19px;
+        background-color: rgb(206, 70, 33);
+        cursor: pointer;
+        font-size: 16px;
+        list-style-type: none;
+      
+    }
+    .sub-menu {
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all ""300ms ease-in-out;
+
+     
+        
+            }
+            
+            .sub-menu li {
+                font-size: 15px;
+                background: rgba(0, 0, 0, 0.8);
+                padding: 8px 0;
+                color: rgb(180, 140, 20);
+                transform: scale(0);
+                transform-origin: top center;
+                transition: all 300ms ease-in-out;
+               list-style-type: none; 
+               background-color: rgb(166, 153, 150);
+
+              }
+              a{
+                text-decoration: none;
+                color: rgb(32, 234, 55);
+              }
+            
+              a:hover{
+                color: #672bcf;
+              }
+            
+            
+              .sub-menu li:hover {
+                color: blue;
+              }
+              .menu > li:hover .sub-menu li {
+                transform: scale(1);
+              }
+              .menu > li:hover .sub-menu {
+                transform: scale(1);
+              }
+              .glr {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+                }
+                .glr{
+                display: flex;
+                justify-content: center;
+                position: relative;
+                left: 0px;
+                top: -500px;
+                
+                }
+                .div10 { grid-area: 1 / 1 / 3 / 3; }
+                .div20 { grid-area: 1 / 3 / 3 / 5; }
+                .div30 { grid-area: 3 / 1 / 5 / 3; }
+                .div40 { grid-area: 3 / 3 / 5 / 5; } 
+                body{
+                    background-color: rgb(217, 198, 198);
+                  }
+                .div10{
+                    box-shadow: 4px 4px 4px rgb(228, 228, 22);display: flex;
+                    flex-wrap: wrap;
+                }                  
+                .div20{
+                    box-shadow: 4px 4px 4px rgb(245, 194, 43);display: flex;
+                    flex-wrap: wrap;
+                }                  
+                .div30{
+                    box-shadow: 4px 4px 4px rgb(132, 187, 254);display: flex;
+                    flex-wrap: wrap;
+                }                  
+                .div40{
+                    box-shadow: 4px 4px 4px rgb(148, 233, 180);display: flex;
+                    flex-wrap: wrap;
+                }                  
+                @media screen and (max-width: 780px) {
+    
+                    .div10{
+                      display: flex;
+                      flex-wrap: wrap;
+                      background-image: url("../TINA\ FORMATION/.div10");
+                    }
+                     }
