@@ -35,3 +35,7 @@ body{
     top: 0;
     right: 0;
 }
+.logo{
+    position: absolute;
+    top: 0;
+}
