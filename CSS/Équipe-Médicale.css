@@ -2,4 +2,31 @@ header{
     color: red;
     font-family: fantasy;
     font-size: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.ligne-doc1{
+    display: flex;
+    justify-content: space-between;
+}
+.photo-doc{
+    height: 250px;
+    width: 250px;
+}
+.text-doc{
+    display: block;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+
+}
+.ligne-doc2{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    padding: 25px;
+    background: rgb(10,73,251);
+    background: linear-gradient(90deg, rgba(10,73,251,1) 22%, rgba(227,230,231,1) 97%);
 }
