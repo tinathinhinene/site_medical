@@ -52,7 +52,7 @@ nav {
   .ecg{
    display: flex;
    align-items: center;
-   padding-top: 190px;
+   padding-top: 170px;
    background-color: #040505;
   }
   .div-image-parallax{
@@ -101,7 +101,14 @@ a:hover.button{
       -o-transition: all 0.5s;
       transition: all 0.5s;
       cursor: pointer;
-      margin: 10px;
+      margin: 30px;
+      margin-left:550px;
     }
 a:hover.button1{
   color:rgb(175, 232, 33)}
+
+  .PILLMAN{
+    margin-top: -200px;
+  
+
+  }
