@@ -3,7 +3,6 @@ box-sizing: border-box;
 margin: auto;
 background-color: rgb(2, 2, 2);
 }
-
 .logo{
     height: 0vh;
     display: flex;   
@@ -28,7 +27,6 @@ background-color: rgb(2, 2, 2);
 nav {
     text-align: center;
   }
-
   .menu {
     display: inline-block;
   }
@@ -51,10 +49,7 @@ nav {
    z-index: 1;
    right: 0px;
   }
-
-  
   .ecg{
-    
    display: flex;
    align-items: center;
    padding-top: 190px;
