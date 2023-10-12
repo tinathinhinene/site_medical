@@ -30,3 +30,12 @@ body{
     background: rgb(10,73,251);
     background: linear-gradient(90deg, rgba(10,73,251,1) 22%, rgba(227,230,231,1) 97%);
 }
+.accueil{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.logo{
+    position: absolute;
+    top: 0;
+}
