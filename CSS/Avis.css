@@ -73,24 +73,4 @@ body{
         a{
             text-decoration: none;
         }
-<<<<<<< Updated upstream
-    /* debut parallax */
- .parallax2 {
-    background-image: url("../imagess/theme-hospital.jpg");
-  }
-  .section-background {
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    height: 50vh;
-    width: 100%;
-    color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* fin de  parallax */
-=======
     }
->>>>>>> Stashed changes
