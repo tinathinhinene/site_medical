@@ -39,3 +39,10 @@ body{
     position: absolute;
     top: 0;
 }
+a{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
