@@ -160,7 +160,7 @@ a{
 text-decoration: none;
 }
 .slogan{
-  margin-top: 0px;
+  top: 500px;
   font-family: fantasy;
   color: rgb(250, 243, 29);
   font-size: 30px;
