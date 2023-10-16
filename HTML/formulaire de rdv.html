@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/formulaire de rdv.css">
+</head>
+<body>
+  <header>
+    <div class="logo"> <img src="../imagess/logo.png" width="80vw" height="80vh"  alt="" srcset="">
+    </div>  
+    <h1> demander un rendez-vous médical</h1>
+    <div class="accueil"> <a href="./site med.html"><img src="../imagess/abiera-music.gif" width="80vw" height="80vh"  alt="" srcset=""></a>
+    </div>
+  </header>   
+  <section class="informations">
+    <form action="#">
+    <p class="double"> <label for="f1-nom">Nom:</label><input type="text" name="nom" id="idNom" size="20" maxlength="30" placeholder="indiquez votre nom"
+    autofocus required />
+    </p>
+    <p class="double"> <label for="f1-prenom">Prenom:</label><input type="text" name="Prenom" id="idNom" size="20" maxlength="30" placeholder="indiquez votre Prenom"
+    autofocus required />  
+    </p>  
+<p class="double"> <label for="f1-sexe"> Sexe: </label>
+       <input type="radio" name="Sexe" value="M" checked/>Homme
+       <input type="radio" name="Sexe" value="F" checked/>Femme
+       <input type="radio" name="Sexe" value="M" checked/>Non binaire
+</p> 
+<p class="double"> <label for="f1-Date de naissance "> Date de naissance : </label><input type="date"/>
+    </p>
+<p class="double"> <label for="f1-adresse">Adresse:</label> <input type="text" id="f1-adresse"maxlength="60" placeholder="indiquez votre Adresse"
+ autofocus required />  </p>
+ <p class="double"> <label for="f1-ville">Ville: </label> <input type="text" id="ville" placeholder=".............................."
+ autofocus required />  </p>
+<p class="double"> <label for="f1-code postal"> Code postale: </label> <input type="number" id="Code postale" placeholder="........................."
+ autofocus required />  </p>
+ <p class="double"> <label for="f1-departement">Departement:</label><input type="number" id="Departement" placeholder=".........................."
+ autofocus required /> </p>
+ <p class="double"> <label for="f1-Télephone">Télephone:</label><input type="number" id="f1-telephone" placeholder=".........................."
+ autofocus required /> </p>
+ <p class="double"> <label for="f1- E-mail"> E-mail: </label><input type="text" id=" E-mail" maxlength="30" placeholder="indiquez votre E-mail"
+ autofocus required /></p>
+
+ <p class="double"> <label for="f1-Première visite?">Première visite? </label>
+   <input type="radio" name="oui" value="oui" cheked/>Oui
+   <input type="radio" name="non" value="non" cheked/>Non
+   </p>
+  <p class="double"> <label for="f1- Selectionnez une date de rendez-vous  "> Selectionnez une date de rendez-vous   </label>
+   <input type="number" min="1" max="31"/>
+   <select size="2" multiple name="jour[]">
+    <option value="l">lundi</option>
+    <option value="m">mardi</option>
+    <option value="me">mercredi</option>
+    <option value="j">jeudi</option>
+    <option value="v">vendredi</option>
+    <option value="s">samedi</option>
+    <option value="d">dimanche</option>
+    </select>
+    <input type="text" list="serie">
+    <datalist id="serie">
+    <option value="janvier">
+    <option value="fevrier">
+    <option value="mars">
+    <option value="avril">   
+    <option value="mai">
+    <option value="juin">
+    <option value="juillet">
+    <option value="août">
+    <option value="septembre">
+    <option value="octobre">
+    <option value="novembre">
+    <option value="decembre"></option>
+    </datalist>
+    </p>
+ <p class="double"> <label for="f1-Rencontrer nos médecins">Rencontrer nos médecins</label><select name="doc">
+    <option value="1">chirurgien</option>
+    <option value="2">dentiste</option>
+    <option value="3">généraliste</option>
+    <option value="4">pédiatre</option>
+    <option value="5">gynecologue</option>
+    <option value="6">cardiologue</option>
+    <option value="7">urologue</option>
+    <option value="8">diabethologue</option>
+    <option value="9">dérmathologue</option>
+    <option value="10">ophtalmologue</option>
+    </select>
+    <select name="doc">
+        <option value="1">MILLER</option>
+        <option value="2">SMITH</option>
+        <option value="3">GARCIA</option>
+        <option value="4">PADINSPI</option>
+        <option value="5">MABOUL</option>
+        <option value="6">BOGOSS</option>
+        </select>
+    </p>
+ <p class="double"> <label for="f1- Motif de la visite"> Motif de la visite:</label> <textarea type="text" 
+     name="lib" rows="3"
+ cols="82">Motif de la visite </textarea> </p>  
+ <p class="simple"><input type="submit" value="Envoyer" /></p>
+ <p class="simple"><input type="reset" value="Annuler" /></p>
+</section> 
+</body>
+</html>
+   
