@@ -3,6 +3,7 @@ box-sizing: border-box;
 margin: auto;
  
 }
+@media only screen and (min-width: 600px) {
 .logo{
     height: 0vh;
     display: flex;   
@@ -70,7 +71,9 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
+
   a.button{
         display: inline-block;
         background: #110f0f; 
@@ -117,15 +120,16 @@ a:hover.button{
       margin: 30px;
       margin-left:550px;
     }
+    
 a:hover.button1{
   color:rgb(175, 232, 33)}
+
 
   .PILLMAN{
     margin-top: -200px;
     font-family: fantasy;
     color: rgb(250, 243, 29);
     font-size: 30px;
-  
   }
   footer{
     display: grid;
@@ -155,3 +159,13 @@ justify-content: space-around;
 a{
 text-decoration: none;
 }
+.slogan{
+  margin-top: 0px;
+  font-family: fantasy;
+  color: rgb(250, 243, 29);
+  font-size: 30px;
+  
+}
+}
+  
+ 
