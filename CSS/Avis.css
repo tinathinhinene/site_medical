@@ -1,3 +1,4 @@
+@media only screen and (min-width: 600px) {
 header{
     font-family: fantasy;
     color: red;
@@ -72,6 +73,7 @@ body{
         a{
             text-decoration: none;
         }
+<<<<<<< Updated upstream
     /* debut parallax */
  .parallax2 {
     background-image: url("../imagess/theme-hospital.jpg");
@@ -89,3 +91,6 @@ body{
   }
   
   /* fin de  parallax */
+=======
+    }
+>>>>>>> Stashed changes
