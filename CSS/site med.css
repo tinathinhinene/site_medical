@@ -11,6 +11,7 @@ margin: auto;
    top: 0px;
    z-index: 1;
 }
+
 .barre de navigation{
     background-color: rgb(209, 211, 75);
      width: 100%;
@@ -24,8 +25,12 @@ margin: auto;
  header{
   background-color: #040505;
  }
+ nav ul{
+  list-style-type: none;
+ }
 nav {
     text-align: center;
+
   }
   .menu {
     display: inline-block;
