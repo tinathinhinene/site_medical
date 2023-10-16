@@ -159,13 +159,13 @@ justify-content: space-around;
 a{
 text-decoration: none;
 }
-.slogan{
-  top: 500px;
+.slogan p{
+ margin-top: -1000px;
   font-family: fantasy;
   color: rgb(250, 243, 29);
   font-size: 30px;
-  
+  position: absolute;
 }
+
+
 }
-  
- 
