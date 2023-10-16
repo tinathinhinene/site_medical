@@ -6,7 +6,8 @@ header{
     margin-top: -10PX;
 }
 body{
-    background: rgb(225, 200, 223);   
+    background: rgb(10,73,251);
+    background: linear-gradient(90deg, rgba(10,73,251,1) 22%, rgba(227,230,231,1) 97%);
 }
 .accueil{
     top: 0;
