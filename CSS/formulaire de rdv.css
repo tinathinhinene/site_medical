@@ -55,3 +55,9 @@ form p {
     form p.simple {
             margin-left: 160px;
             }
+
+ .footer{
+display: flex;
+justify-content: space-around; 
+ }
+         
