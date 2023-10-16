@@ -1,7 +1,7 @@
 *{
 box-sizing: border-box;
 margin: auto;
-background-color: rgb(2, 2, 2);
+ 
 }
 .logo{
     height: 0vh;
@@ -68,20 +68,26 @@ nav {
   }
   a.button{
         display: inline-block;
-        background-color: #110f0f;
+        background: #110f0f; 
+        background: linear-gradient(#50c0e9, #ccda0c);
         border-radius: 20px;
         border: 4px double #1ad0da;
-        color: #e452d6;
+        color:white;
         text-align: center;
+        vertical-align: middle;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 28px;
+        text-decoration:none;
         padding: 15px;
         width: 150px;
+        line-height: 20px;
         -webkit-transition: all 0.5s;
         -moz-transition: all 0.5s;
         -o-transition: all 0.5s;
         transition: all 0.5s;
         cursor: pointer;
         margin: 5px;
+    
       }
 
 a:hover.button{
@@ -93,6 +99,7 @@ a:hover.button{
       border: 4px double  #1ad0da;
       color: #c10f02;
       text-align: center;
+      font-family: 'Times New Roman', Times, serif;
       font-size: 28px;
       padding: 15px;
       width: 450px;
@@ -109,6 +116,7 @@ a:hover.button1{
 
   .PILLMAN{
     margin-top: -200px;
-  
-
+    font-family: fantasy;
+    color: rgb(250, 243, 29);
+    font-size: 30px;
   }
