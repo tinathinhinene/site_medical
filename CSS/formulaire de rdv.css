@@ -1,0 +1,65 @@
+@media only screen and (min-width: 600px) {
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(13, 8, 8);
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10PX;
+}
+body{
+    background: rgb(10,73,251);
+    background: linear-gradient(90deg, rgba(10,73,251,1) 22%, rgba(227,230,231,1) 97%);
+}
+.accueil{
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.logo{
+    top: 0;
+    position: absolute;
+}
+.form{
+width:500px;
+padding: 10PX 20PX;
+background: lavender;
+color: midnightblue; 
+}
+form p {
+    margin: 1em 0;
+    }
+    form p.double {
+        overflow:hidden;
+        width: 100%;
+    }  
+    
+    form p.double label {
+        float:left;
+        width: 150px;
+        text-align:left;
+        font-weight: bold;
+        cursor: pointer;
+        }
+ 
+    form p.double input,
+    form p.double textarea {
+        width: 250px;
+        margin-left: 12px;
+        border: solid 1px midnightblue;
+        padding: 2px 4px;
+        }
+    form p.double textarea {
+            padding: 2px 0 0 4px;
+            width: 320px;
+            height: 6em;
+            }
+    form p.simple {
+            margin-left: 160px;
+            }
+
+ .footer{
+display: flex;
+justify-content: space-around; 
+
+ }
+}      
